@@ -4,16 +4,20 @@
 <title>Registration form</title>
 <style>
     body {
-        background-color: lightblue;
+        background-color: lavender;
         font-family: Arial;
     }
+.container {
+    background-color: white;
+}
 </style>
 </head> 
 <body> 
 <h2>Student Registration Form</h2>
 <form class="registration form>
-<label>Name:</label>
-<input type="text">
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name"
+       placeholder="Enter your full name" required>
 <br><br>
 <label>Email:</label>
 <input type="email">
